@@ -50,7 +50,7 @@ def search(request):
   
     [t.start() for t in threads]
     [t.join() for t in threads]
-
+    
     natija = [t.results for t in threads if t.status_code]
    
     return Response(data=natija)
