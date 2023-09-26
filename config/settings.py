@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-o+aiygm)1t-8a-5p+ih!sb9_820i-mywpa8^3s-+pp$lc)+@x(
 DEBUG = True
 
 
-ALLOWED_HOSTS = ["api.kutubxona1.librarynetbuilder.uz","127.0.0.1"]
+ALLOWED_HOSTS = ["api.kutubxona1.librarynetbuilder.uz","127.0.0.1", ".vercel.app"]
 CORS_ORIGIN_ALLOW_ALL = True
 CSRF_TRUSTED_ORIGINS = ['https://kutubxona1.librarynetbuilder.uz']
 CSRF_COOKIE_SECURE = False
